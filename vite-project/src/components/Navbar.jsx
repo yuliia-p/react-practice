@@ -1,18 +1,20 @@
+import React from "react";
+import logoUrl from "../assets/logo.svg"
 
 function NavbarComponent() {
     return (
-        <div  className="container">
+        <div className="container">
             <div className="row align-items-start">
-            <div className="col-4">
-                <img src="" alt="" />
+            <div className="col">
+                <img src={logoUrl} alt="" />
             </div>
-            <div className="col-4">
+            <div className="col">
                 <a href="#home">Features</a>
             </div>
-            <div className="col-4">
+            <div className="col">
                 <a href="#link">Team</a>
             </div>
-            <div className="col-4">
+            <div className="col">
                 <a href="#">Sign In</a>
             </div>
             </div>

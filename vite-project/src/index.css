@@ -1,10 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Raleway:wght@100;400;700&display=swap');
 
-:root {
-  font-family: Raleway, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
 
+:root {
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
   background-color: #242424;
@@ -32,7 +29,7 @@ body {
   min-width: 520px; */
   min-height: 100vh;
   background-color: hsl(218, 28%, 13%);
-  color: #ffffff;
+
 }
 
 h1 {

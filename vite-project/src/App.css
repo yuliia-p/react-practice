@@ -2,8 +2,21 @@
   width: 80%;
   margin: auto;
   padding: 2rem 0;
-  /* max-width: 1280px; */
-  /* margin: 0 auto;
-   */
-  /* text-align: center; */
+}
+
+body {
+  font-family: Raleway, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #ffffff;
+  min-height: 100vh;
+  place-items: center;
+}
+
+.intro-img {
+  width: 50%;
+}
+div.intro-row button {
+  background-color: hsl(176, 68%, 64%);
+  
 }
