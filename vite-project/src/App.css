@@ -7,7 +7,11 @@ body {
   color: #ffffff;
   background-color: hsl(217, 28%, 15%);
 }
-
+a {
+  color: #ffffff;
+  text-decoration: none;
+  margin-left: 2rem;
+}
 div.intro-row {
   justify-content: center;
   text-align: center;
@@ -16,7 +20,9 @@ div.intro-row {
   background-position: bottom;
   background-size: 100%;
 }
-
+h1 {
+  font-weight: bold;
+}
 div.intro-row h1 {
   margin: 3rem;
   font-size: 3rem;
@@ -31,9 +37,9 @@ div.intro-row img {
 
 div.intro-row button {
   background: linear-gradient(0.25turn, #66e3db, #339ecc);
-  padding: 0.5rem;
-  width: 20%;
-  border-radius: 20px;
+  padding: 0.75rem;
+  width: 15%;
+  border-radius: 25px;
   border: none;
   margin: 1rem 0;
   color: white; 
@@ -41,4 +47,12 @@ div.intro-row button {
 
 h3 {
   margin: 1.5rem 0;
+}
+
+/* div.dark-bg {
+background-color: hsl(218, 28%, 13%);
+width: max-content;
+} */
+div.row-navbar {
+  padding: 2rem 0;
 }
