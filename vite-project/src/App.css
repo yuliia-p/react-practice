@@ -22,11 +22,10 @@ div.intro-row {
 }
 h1 {
   font-weight: bold;
-}
-div.intro-row h1 {
-  margin: 3rem;
+  margin: 2rem 0;
   font-size: 3rem;
 }
+
 div.intro-row p {
   font-size: 1.5rem;
 }
