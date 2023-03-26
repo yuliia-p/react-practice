@@ -6,8 +6,8 @@ import collabUrl from "../assets/icon-collaboration.svg"
 import fileUrl from "../assets/icon-any-file.svg"
 import productiveUrl from "../assets/illustration-stay-productive.png"
 import Reviews from "../components/review-comp"
+import { reviews } from "../review";
 
-console.log('Reviews', Reviews)
 
 export default class Home extends React.Component {
     render() {
@@ -55,7 +55,7 @@ export default class Home extends React.Component {
                      <a href="#">See how Fylo works</a>
                  </div>
                  <div className="row">
-                     
+                     {Reviews(reviews)}
                  </div>
                  
              </div>
