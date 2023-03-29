@@ -21,5 +21,5 @@ export const reviews = [
     position: "Founder & CEO",
     review: "Huddle Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine."
 }]
-// 
+
 console.log(reviews)
