@@ -7,9 +7,9 @@ function Reviews(props) {
     const review = props.map((el, index) => {
         console.log('el', el)
     return (
-        <div key={index} className="col">
+        <div key={index} className="col review-box">
             <p>{el.review}</p>
-            <img src={el.profileImg} alt="" />
+            <img className="profile-img" src={el.profileImg} alt="" />
             <p>{el.userName}</p>
             <p>{el.position}</p>
         </div>
@@ -18,7 +18,7 @@ function Reviews(props) {
 console.log('review', review)
 
     return(
-        <div className="row">
+        <div className="row review-row">
             {review}
         </div>
     )
