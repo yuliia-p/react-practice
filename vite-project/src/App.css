@@ -5,7 +5,7 @@ body {
   line-height: 1.5;
   font-weight: 400;
   color: #ffffff;
-  background-color: hsl(218, 28%, 13%);
+  background-color: hsl(217, 28%, 15%)
 }
 a {
   color: #ffffff;
@@ -48,13 +48,14 @@ h3 {
   margin: 1.5rem 0;
 }
 
-/* div.dark-bg {
+div.dark-bg {
 background-color: hsl(218, 28%, 13%);
-width: max-content;
-} */
+}
+
 div.row-navbar {
   padding: 2rem 0;
 }
+
 div.review-row {
   margin: 3rem 0;
 }
@@ -67,9 +68,7 @@ div.review-box img {
   border-radius: 50%;
   width: 20%;
 }
-div.container.footer {
-  margin: 0;
-}
-div.footer {
-  background-color: hsl(216, 53%, 9%);
+
+div.bg {
+  background-color:  hsl(216, 53%, 9%);;
 }
