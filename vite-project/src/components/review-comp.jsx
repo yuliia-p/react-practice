@@ -9,9 +9,15 @@ function Reviews(props) {
     return (
         <div key={index} className="col review-box">
             <p>{el.review}</p>
-            <img className="profile-img" src={el.profileImg} alt="" />
-            <p>{el.userName}</p>
-            <p>{el.position}</p>
+            <div style={{display: "flex"}}>
+                <div>
+                    <img className="profile-img" src={el.profileImg} alt="" />
+                </div>
+                <div>
+                    <p style={{fontWeight: "bold"}}>{el.userName}</p>
+                    <p>{el.position}</p>
+                </div>
+            </div>
         </div>
     )
 })
