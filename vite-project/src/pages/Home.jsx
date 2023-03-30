@@ -13,6 +13,7 @@ export default class Home extends React.Component {
     render() {
         return (
             <>
+            <div className="intro-row">
             <div className="container">
              <div className="row align-items-start intro-row">
                  <img className="intro-img" src={imgUrl} alt="" />
@@ -21,6 +22,7 @@ export default class Home extends React.Component {
                  <p >Access them wherever you need, share and collaborate with friends family, and co-workers.</p>
                  <button>Get Started</button>
              </div>
+            </div>
             </div>
             <div className="dark-bg">
                 <div className="container">

@@ -16,7 +16,7 @@ export const reviews = [
     review: "Huddle Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine."
 },
 {
-    userName: "Iva Boyd Founder & CEO",
+    userName: "Iva Boyd",
     profileImg: `${profile3}`,
     position: "Founder & CEO",
     review: "Huddle Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine."
