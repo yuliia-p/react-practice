@@ -70,5 +70,6 @@ div.review-box img {
 }
 
 div.bg {
-  background-color:  hsl(216, 53%, 9%);;
+  background-color:  hsl(216, 53%, 9%);
+  padding: 2REM;
 }
