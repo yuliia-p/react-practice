@@ -1,11 +1,9 @@
 import React from "react";
 import { reviews } from "../review";
-console.log('hello')
 
 function Reviews(props) {
 
     const review = props.map((el, index) => {
-        console.log('el', el)
     return (
         <div key={index} className="col review-box">
             <p>{el.review}</p>
